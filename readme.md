@@ -10,7 +10,11 @@ _ _ _
 
 **Primero**, descargamos nuestro objeto visual.
 
-En el panel de visualizaciones, nos vamos a los tres puntitos - > obtener mas objetos visuales y buscamos Preselected slicer.
+En el **panel de visualizaciones**, nos vamos a los **tres puntitos** - > **obtener mas objetos visuales** y buscamos **Preselected slicer**.
+
+![logo](panel.png "visual Panel de visualizaciones")
+
+![logo](panel2.png "visual Panel de visualizaciones")
 
 ![logo](preselectedimg1.png "visual Preselected Slicer")
 
