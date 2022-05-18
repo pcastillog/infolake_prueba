@@ -72,8 +72,8 @@ RETURN
      __CurrentMonth = __SelectedMonth
 
 ```
-**A Continuación**, retrocedí en el tiempo y, recordé cuando creaba mis tablas de verdad en mi curso de Lógica Proposicional en la academia. Pues bien, esto será nuestro siguiente paso. Crear dicha tabla, pero ahora con DAX.
-Como el objetivo es: capturar el año y el mes actual, como se ve en la siguiente imagen.
+**A Continuación**, retrocedí en el tiempo y, recordé cuando creaba mis tablas de verdad en mi curso de Lógica Proposicional en la academia. Pues bien, esto será nuestro siguiente paso. Crear dicha tabla, pero ahora con **DAX**.
+Como el **objetivo** es: **capturar el año y el mes actual de forma Preseleccionada**, como se ve en la siguiente imagen.
 
 ![logo](silcerimg3.png "Slicer")
 
