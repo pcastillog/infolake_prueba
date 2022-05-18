@@ -8,7 +8,7 @@ _ _ _
 
 ¡Veamos en acción el Visual Preselected Slicer!.
 
-**Primero**, descargamos nuestro visual.
+**Primero**, descargamos nuestro objeto visual.
 
 En el panel de visualizaciones, nos vamos a los tres puntitos - > obtener mas objetos visuales y buscamos Preselected slicer.
 
@@ -46,7 +46,7 @@ Vista resumen de los datos de nuestra tabla de **Calendario**.
 
 ![logo](calendarioimg2.png "Calendario")
 
-**Ahora** crearemos dos medidas, que nos permita saber si estamos en el mes o año actual, cuyo resultado tiene que ser un valor booleano **TRUE** o **FALSE**.
+**Ahora crearemos dos medidas**, que nos permita saber si estamos en el mes o año actual, cuyo resultado tiene que ser un valor booleano **TRUE** o **FALSE**.
 
 ### Verificar el año actual
 
@@ -73,14 +73,14 @@ Como el objetivo es: capturar el año y el mes actual, como se ve en la siguient
 
 ![logo](silcerimg3.png "Slicer")
 
-Fíjese que son 2 visuales, los que estoy necesitando, entonces necesitaremos crear dos columnas con cierta cantidad de las filas de valores booleanos.
-Entonces usaremos la siguiente formula:2 <sup>**n**</sup>.
+Fíjese que son **2 objetos visuales**, los que necesito, entonces necesitaremos **crear dos columnas con cierta cantidad de las filas de valores booleanos**.
+Entonces usaremos la siguiente formula: 2 <sup>**n**</sup>.
 
-donde **n** sería el número de visualizaciones en este caso 2.
+donde **n**, sería el número de objetos visuales, en este caso es **2**.
 
-2<sup>**2**</sup> = **4**
+2<sup>**2**</sup> = **4**.
 
-sería el número de filas que necesito.
+**4**, sería el número de filas que necesito.
 
 ¿Cómo creamos nuestra tabla de verdad con DAX?
 
@@ -104,22 +104,29 @@ DATATABLE (
 
 De la siguiente forma:
 
-Para muestra de ejemplo configuraremos el mes actual.
-
-  * **Fields**: debemos colocar el campo de nuestra tabla de calendario el año o el mes.
-
-* **Pre Selection**: colocaremos la medida Month_current, creada anteriormente.
-
-* **Dirty Status**: colocares el campo IsDirtySlicerMonth de la tabla PreselectedSlicer creada en el paso anterior.
-
-Quedando el resultado de la siguiente forma:
+Para muestra de ejemplo configuraremos el **mes actual**.
 
 ![logo](camposimg7.png)
 
-**Resultado Final**
-____
-![logo](monthimg6.png)
+donde:
 
+  * **Fields**: debemos colocar el campo de nuestra tabla de calendario, **Short Month**.
+
+* **Pre Selection**: colocaremos la medida **Month_current**, creada anteriormente.
+
+* **Dirty Status**: colocaremos el campo **IsDirtySlicerMonth** de la tabla PreselectedSlicer, creada en el paso anterior.
+
+Quedando el resultado de la siguiente forma:
+
+
+
+**Resultado Final**
+___
+#### Configuración objeto visual para el mes
+
+![logo](monthimg6.png)
+___ 
+#### Configuración objeto visual para el año
 ![logo](yearimg5.png)
 
 
