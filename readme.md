@@ -76,7 +76,7 @@ Como el objetivo es: capturar el año y el mes actual, como se ve en la siguient
 Fíjese que son 2 visuales, los que estoy necesitando, entonces necesitaremos crear dos columnas con cierta cantidad de las filas de valores booleanos.
 Entonces usaremos la siguiente formula:2 <sup>**n**</sup>.
 
-donde n sería el número de visualizaciones en este caso 2.
+donde **n** sería el número de visualizaciones en este caso 2.
 
 2<sup>**2**</sup> = **4**
 
@@ -106,11 +106,11 @@ De la siguiente forma:
 
 Para muestra de ejemplo configuraremos el mes actual.
 
-  * Fields: debemos colocar el campo de nuestra tabla de calendario el año o el mes.
+  * **Fields**: debemos colocar el campo de nuestra tabla de calendario el año o el mes.
 
-* Pre Selection: colocaremos la medida Month_current, creada anteriormente.
+* **Pre Selection**: colocaremos la medida Month_current, creada anteriormente.
 
-* Dirty Status: colocares el campo IsDirtySlicerMonth de la tabla PreselectedSlicer creada en el paso anterior.
+* **Dirty Status**: colocares el campo IsDirtySlicerMonth de la tabla PreselectedSlicer creada en el paso anterior.
 
 Quedando el resultado de la siguiente forma:
 
