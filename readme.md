@@ -133,7 +133,7 @@ ___
 #### Configuración objeto visual para el año
 ![logo](yearimg5.png)
 
-
-
+#### ¡Y Pum!
+![Alt Text](resultado.gif)
 
 
