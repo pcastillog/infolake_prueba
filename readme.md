@@ -8,13 +8,13 @@ _ _ _
 
 ¡Veamos en acción el Visual Preselected Slicer!.
 
-Primero descargamos nuestro visual.
+**Primero**, descargamos nuestro visual.
 
 En el panel de visualizaciones, nos vamos a los tres puntitos - > obtener mas objetos visuales y buscamos Preselected slicer.
 
 ![logo](preselectedimg1.png "visual Preselected Slicer")
 
-Seguidamente, creamos nuestra tabla de **Calendario**.
+**Seguidamente**, creamos nuestra tabla de **Calendario**.
 
 
 <!-- Codigo para general tabla de calendario -->
@@ -46,7 +46,7 @@ Vista resumen de los datos de nuestra tabla de **Calendario**.
 
 ![logo](calendarioimg2.png "Calendario")
 
-Ahora crearemos dos medidas, que nos permita saber si estamos en el mes o año actual, cuyo resultado tiene que ser un valor booleano **TRUE** o **FALSE**.
+**Ahora** crearemos dos medidas, que nos permita saber si estamos en el mes o año actual, cuyo resultado tiene que ser un valor booleano **TRUE** o **FALSE**.
 
 ### Verificar el año actual
 
@@ -68,7 +68,7 @@ RETURN
      __CurrentMonth = __SelectedMonth
 
 ```
-A Continuación, retrocedí en el tiempo y, recordé cuando creaba mis tablas de verdad en mi curso de Lógica Proposicional en la academia. Pues bien, esto será nuestro siguiente paso. Crear dicha tabla, pero ahora con DAX.
+**A Continuación**, retrocedí en el tiempo y, recordé cuando creaba mis tablas de verdad en mi curso de Lógica Proposicional en la academia. Pues bien, esto será nuestro siguiente paso. Crear dicha tabla, pero ahora con DAX.
 Como el objetivo es: capturar el año y el mes actual, como se ve en la siguiente imagen.
 
 ![logo](silcerimg3.png "Slicer")
@@ -100,7 +100,7 @@ DATATABLE (
 ### Resultado de la tabla de verdad.
 ![logo](tablaverdadimg4.png "tabla de verdad")
 
-Finalmente, debemos de configurar nuestro objeto visual **Preselected Slicer**.
+**Finalmente**, debemos de configurar nuestro objeto visual **Preselected Slicer**.
 
 De la siguiente forma:
 
@@ -116,7 +116,7 @@ Quedando el resultado de la siguiente forma:
 
 ![logo](camposimg7.png)
 
-Resultado
+**Resultado Final**
 ____
 ![logo](monthimg6.png)
 
