@@ -137,3 +137,9 @@ ___
 ![Alt Text](resultado.gif)
 
 
+# **Bibliografía**
+
+* Modificicacion de la muestra, que viene por defecto, del mismo objeto visual.
+___
+
+By:  ***Pedro Castillo G.***
