@@ -6,7 +6,7 @@ Me sucedió un escenario como en la pregunta.
 Se llegó a la solución en su momento, pero no fue tan simple. En la actualidad existe un objeto visual llamado: **Preselected Slicer**, el cual nos permite realizar esta funcionalidad de una manera muy sencilla.
 _ _ _
 
-¡Veamos en acción el Visual Preselected Slicer!.
+**¡Veamos en acción el Visual ***Preselected Slicer***!.**
 
 **Primero**, descargamos nuestro objeto visual.
 
